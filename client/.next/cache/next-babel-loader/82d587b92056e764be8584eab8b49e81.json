@@ -1,0 +1,1 @@
+{"ast":null,"code":"import 'semantic-ui-css/semantic.min.css';","map":{"version":3,"sources":["/home/pratheep/main_dir/TicketBooking/client/pages/_app.js"],"names":[],"mappings":"AAAA,OAAO,kCAAP","sourcesContent":["import 'semantic-ui-css/semantic.min.css'"]},"metadata":{},"sourceType":"module"}
