@@ -103,7 +103,7 @@ contract TicketBooking {
 	}
 	
 	function makeShowNotAvailable(uint _showIndex) requireAdmin() indexIsValid(_showIndex) external{
-		require(showDetail[_showIndex].showAvailable,"Show is already not available !");
+		require(showDetail[_showIndex].showAvailable,"Show is not available !");
 		showDetail[_showIndex].showAvailable = false;
 	}
 
